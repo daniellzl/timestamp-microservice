@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+  head
+    title Timestamp Microservice
+  body
+    h1 Timestamp Microservice
+    p This website checks to see if a user passed parameter string contains a unix timestamp or a natural language date. If it does, then it returns the Unix timestamp and natural language form of that date. If it does not, then it returns null.
+    h3 Example Usage
+    p https://timestamp-dlzl.herokuapp.com/December 15, 2015
+    p or
+    p https://timestamp-dlzl.herokuapp.com/1450137600
+    p return
+    p { "unix": 1450137600, "natural": "December 15, 2015" }
+    h3 Credit
+    p https://www.freecodecamp.com/challenges/timestamp-microservice
