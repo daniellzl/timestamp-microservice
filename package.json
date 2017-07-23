@@ -2,6 +2,9 @@
   "name": "timestamp-microservice",
   "version": "1.0.0",
   "main": "app.js",
+  "engines": {
+    "node": "6.11.1"
+  },
   "scripts": {
     "start": "node app.js"
   },
