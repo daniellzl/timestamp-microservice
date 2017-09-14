@@ -4,7 +4,7 @@ Checks to see if a user passed parameter string contains a unix timestamp or a n
 
 [Live Application](https://timestamp-dlzl.herokuapp.com)
 
-## Example Usage
+### Example Usage
 
 https://timestamp-dlzl.herokuapp.com/1450137600
 
